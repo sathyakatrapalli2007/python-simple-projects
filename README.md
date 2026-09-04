@@ -7,11 +7,17 @@ Each project explores a different programming concept—from simple command-line
 This repository focuses on:
 
 * Problem-solving
+
 * Algorithmic thinking
+
 * Event-driven programming
+
 * File handling and data persistence
+
 * Simulations and probability
+
 * Writing modular, maintainable code
+
 * Incremental learning through practical projects
 
 ---
@@ -20,6 +26,7 @@ This repository focuses on:
 
 ```text
 PYTHON-SIMPLE-PROJECTS/
+
 │
 ├── number_guessing_game/
 │   ├── main.py
@@ -46,6 +53,14 @@ PYTHON-SIMPLE-PROJECTS/
 │   ├── main.py
 │   └── README.md
 │
+├── bitmap_message/
+│   ├── main.py
+│   └── README.md
+│
+├── blackjack/
+│   ├── main.py
+│   └── README.md
+│
 ├── README.md
 └── .gitignore
 ```
@@ -61,10 +76,15 @@ A GUI-based game where the player guesses a randomly generated number within a l
 **Concepts Practiced**
 
 * State management
+
 * Event-driven programming
+
 * Input validation
+
 * Random number generation
+
 * UI updates
+
 * Game lifecycle handling
 
 ---
@@ -76,18 +96,27 @@ A command-line implementation of the classic **Bagels** deduction game.
 The computer generates a secret **3-digit number with unique digits**, and the player must guess it using the clues:
 
 * **Fermi** – Correct digit in the correct position
+
 * **Pico** – Correct digit in the wrong position
+
 * **Bagels** – No correct digits
 
 **Concepts Practiced**
 
 * Game logic
+
 * Random number generation
+
 * Lists and strings
+
 * Input validation
+
 * Functions
+
 * Conditional statements
+
 * Loop control
+
 * Problem-solving
 
 ---
@@ -101,11 +130,17 @@ The program generates random birthdays, checks for duplicate dates, and performs
 **Concepts Practiced**
 
 * Probability simulation
+
 * Nested loops
+
 * Date and time handling
+
 * Random number generation
+
 * Algorithmic thinking
+
 * Performance through repeated simulations
+
 * Functions and modular design
 
 ---
@@ -117,9 +152,13 @@ A GUI-based Rock Paper Scissors game where the player competes against the compu
 **Concepts Practiced**
 
 * Event-driven programming
+
 * Timers and delays
+
 * Randomized gameplay
+
 * State management
+
 * UI control
 
 ---
@@ -131,9 +170,13 @@ A command-line task manager with persistent storage using JSON.
 **Concepts Practiced**
 
 * CRUD operations
+
 * File handling
+
 * JSON serialization
+
 * Data persistence
+
 * User interaction
 
 ---
@@ -145,25 +188,91 @@ A text encryption and decryption tool based on the classical Caesar Cipher algor
 **Concepts Practiced**
 
 * ASCII manipulation (`ord()` and `chr()`)
+
 * Modular arithmetic
+
 * String processing
+
 * Loops
+
 * Conditional logic
+
+---
+
+## 🖼️ Bitmap Message
+
+A command-line program that displays a user-entered message within a predefined ASCII bitmap pattern.
+
+**Concepts Practiced**
+
+* Strings
+
+* String indexing
+
+* `splitlines()`
+
+* `enumerate()`
+
+* Loops
+
+* Conditional statements
+
+* String concatenation
+
+* Modulo operator
+
+* User input
+
+---
+
+## 🃏 Blackjack
+
+A command-line implementation of the classic **Blackjack** card game. The player attempts to get as close to 21 as possible without going over while managing bets and playing against the dealer.
+
+**Concepts Practiced**
+
+* Functions
+
+* Loops
+
+* Lists and tuples
+
+* Randomization with `random`
+
+* User input
+
+* Game logic
+
+* Conditional statements
+
+* String manipulation
+
+* Unicode characters
+
+* Modular program design
+
+* Basic state and money management
 
 ---
 
 # 🛠️ Tech Stack
 
 * Python 3
+
 * CustomTkinter (GUI projects)
+
 * JSON (Data persistence)
 
 ### Standard Library Modules
 
 * `random`
+
 * `datetime`
+
 * `json`
+
 * `os`
+
 * `pathlib`
 
 ---
@@ -174,6 +283,7 @@ A text encryption and decryption tool based on the classical Caesar Cipher algor
 
 ```bash
 git clone https://github.com/your-username/python-simple-projects.git
+
 cd python-simple-projects
 ```
 
@@ -227,6 +337,18 @@ python to_do_list/to_do_list.py
 python caesar_cipher/main.py
 ```
 
+### Bitmap Message
+
+```bash
+python bitmap_message/main.py
+```
+
+### Blackjack
+
+```bash
+python blackjack/main.py
+```
+
 ---
 
 # 🎯 Learning Goals
@@ -234,12 +356,19 @@ python caesar_cipher/main.py
 This repository is designed to strengthen:
 
 * Python fundamentals
+
 * Algorithmic thinking
+
 * Problem-solving skills
+
 * Program flow and state management
+
 * File handling and persistence
+
 * Code organization
+
 * Writing reusable functions
+
 * Building complete small-scale applications
 
 ---
@@ -249,16 +378,27 @@ This repository is designed to strengthen:
 Across these projects, you'll encounter:
 
 * Functions
+
 * Loops
+
 * Conditional statements
+
 * Lists, dictionaries, tuples, and strings
+
 * Random number generation
+
 * Date and time manipulation
+
 * JSON handling
+
 * File I/O
+
 * Event-driven programming
+
 * GUI development with CustomTkinter
+
 * Modular code organization
+
 * Simulation-based programming
 
 ---
@@ -270,11 +410,17 @@ This repository represents the transition from writing simple scripts to develop
 Each project focuses on a different aspect of software development:
 
 * 🎮 Interactive game logic
+
 * 🖥️ GUI application development
+
 * 📂 Data persistence
+
 * 🔐 Classical algorithms
+
 * 🎲 Probability simulations
+
 * 🧩 Problem decomposition
+
 * 🏗️ Code organization and modularity
 
 As new projects are completed, this repository will continue to grow into a comprehensive collection of Python applications that document my learning journey.
