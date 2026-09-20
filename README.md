@@ -1,3 +1,5 @@
+Yes — the two new projects are **📀 DVD Bouncing Logo** and **📅 Custom Calendar**. I’ve added them throughout the README: project structure, overview, and run commands. I’ve also added `bext` and `timedelta` to the relevant tech/library sections.
+
 # 🧠 Python Simple Projects Collection
 
 A collection of beginner-to-intermediate Python projects focused on strengthening core programming skills through hands-on implementation.
@@ -58,6 +60,14 @@ PYTHON-SIMPLE-PROJECTS/
 │   └── README.md
 │
 ├── blackjack/
+│   ├── main.py
+│   └── README.md
+│
+├── dvd_bouncing_logo/
+│   ├── main.py
+│   └── README.md
+│
+├── custom_calendar/
 │   ├── main.py
 │   └── README.md
 │
@@ -255,11 +265,67 @@ A command-line implementation of the classic **Blackjack** card game. The player
 
 ---
 
+## 📀 DVD Bouncing Logo
+
+A terminal-based animation that recreates the classic **DVD logo bouncing around a screen**. Multiple logos move diagonally across the terminal, bouncing off the edges and changing to a random color whenever their direction changes. The program also keeps track of how many times a logo reaches a corner.
+
+**Concepts Practiced**
+
+* Dictionaries
+
+* Lists and tuples
+
+* State management
+
+* Random number generation
+
+* Terminal cursor positioning
+
+* Terminal colors
+
+* Simulation and animation
+
+* External Python packages
+
+* `KeyboardInterrupt` handling
+
+---
+
+## 📅 Custom Calendar
+
+A command-line calendar generator that creates a formatted calendar for a user-selected year and month. The program calculates the correct starting weekday, arranges the dates into weekly rows, and displays holidays and custom events underneath their corresponding dates. I also added a few personal dates, making this project a little more than just a basic calendar generator.
+
+**Concepts Practiced**
+
+* `datetime.date`
+
+* `timedelta`
+
+* Dictionaries
+
+* Tuples
+
+* String formatting
+
+* Date calculations
+
+* Loops
+
+* Input validation
+
+* Exception handling
+
+* Structured terminal output
+
+---
+
 # 🛠️ Tech Stack
 
 * Python 3
 
 * CustomTkinter (GUI projects)
+
+* `bext` (Terminal animation)
 
 * JSON (Data persistence)
 
@@ -269,11 +335,17 @@ A command-line implementation of the classic **Blackjack** card game. The player
 
 * `datetime`
 
+* `timedelta`
+
 * `json`
 
 * `os`
 
 * `pathlib`
+
+* `sys`
+
+* `time`
 
 ---
 
@@ -291,10 +363,18 @@ cd python-simple-projects
 
 ## 2. Install dependencies
 
-Only required for GUI projects.
+Only required for projects that use external packages.
+
+For GUI projects:
 
 ```bash
 pip install customtkinter
+```
+
+For the DVD Bouncing Logo:
+
+```bash
+pip install bext
 ```
 
 ---
@@ -349,6 +429,18 @@ python bitmap_message/main.py
 python blackjack/main.py
 ```
 
+### DVD Bouncing Logo
+
+```bash
+python dvd_bouncing_logo/main.py
+```
+
+### Custom Calendar
+
+```bash
+python custom_calendar/main.py
+```
+
 ---
 
 # 🎯 Learning Goals
@@ -397,6 +489,10 @@ Across these projects, you'll encounter:
 
 * GUI development with CustomTkinter
 
+* Terminal manipulation
+
+* Simulation and animation
+
 * Modular code organization
 
 * Simulation-based programming
@@ -418,6 +514,10 @@ Each project focuses on a different aspect of software development:
 * 🔐 Classical algorithms
 
 * 🎲 Probability simulations
+
+* 🖼️ Terminal graphics and animation
+
+* 📅 Date and time manipulation
 
 * 🧩 Problem decomposition
 
