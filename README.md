@@ -1,5 +1,3 @@
-Yes — the two new projects are **📀 DVD Bouncing Logo** and **📅 Custom Calendar**. I’ve added them throughout the README: project structure, overview, and run commands. I’ve also added `bext` and `timedelta` to the relevant tech/library sections.
-
 # 🧠 Python Simple Projects Collection
 
 A collection of beginner-to-intermediate Python projects focused on strengthening core programming skills through hands-on implementation.
@@ -8,19 +6,13 @@ Each project explores a different programming concept—from simple command-line
 
 This repository focuses on:
 
-* Problem-solving
-
-* Algorithmic thinking
-
-* Event-driven programming
-
-* File handling and data persistence
-
-* Simulations and probability
-
-* Writing modular, maintainable code
-
-* Incremental learning through practical projects
+- Problem-solving
+- Algorithmic thinking
+- Event-driven programming
+- File handling and data persistence
+- Simulations and probability
+- Writing modular, maintainable code
+- Incremental learning through practical projects
 
 ---
 
@@ -71,6 +63,10 @@ PYTHON-SIMPLE-PROJECTS/
 │   ├── main.py
 │   └── README.md
 │
+├── carrot_in_a_box/
+│   ├── main.py
+│   └── README.md
+│
 ├── README.md
 └── .gitignore
 ```
@@ -85,17 +81,12 @@ A GUI-based game where the player guesses a randomly generated number within a l
 
 **Concepts Practiced**
 
-* State management
-
-* Event-driven programming
-
-* Input validation
-
-* Random number generation
-
-* UI updates
-
-* Game lifecycle handling
+- State management
+- Event-driven programming
+- Input validation
+- Random number generation
+- UI updates
+- Game lifecycle handling
 
 ---
 
@@ -105,29 +96,20 @@ A command-line implementation of the classic **Bagels** deduction game.
 
 The computer generates a secret **3-digit number with unique digits**, and the player must guess it using the clues:
 
-* **Fermi** – Correct digit in the correct position
-
-* **Pico** – Correct digit in the wrong position
-
-* **Bagels** – No correct digits
+- **Fermi** – Correct digit in the correct position
+- **Pico** – Correct digit in the wrong position
+- **Bagels** – No correct digits
 
 **Concepts Practiced**
 
-* Game logic
-
-* Random number generation
-
-* Lists and strings
-
-* Input validation
-
-* Functions
-
-* Conditional statements
-
-* Loop control
-
-* Problem-solving
+- Game logic
+- Random number generation
+- Lists and strings
+- Input validation
+- Functions
+- Conditional statements
+- Loop control
+- Problem-solving
 
 ---
 
@@ -139,19 +121,13 @@ The program generates random birthdays, checks for duplicate dates, and performs
 
 **Concepts Practiced**
 
-* Probability simulation
-
-* Nested loops
-
-* Date and time handling
-
-* Random number generation
-
-* Algorithmic thinking
-
-* Performance through repeated simulations
-
-* Functions and modular design
+- Probability simulation
+- Nested loops
+- Date and time handling
+- Random number generation
+- Algorithmic thinking
+- Performance through repeated simulations
+- Functions and modular design
 
 ---
 
@@ -161,15 +137,11 @@ A GUI-based Rock Paper Scissors game where the player competes against the compu
 
 **Concepts Practiced**
 
-* Event-driven programming
-
-* Timers and delays
-
-* Randomized gameplay
-
-* State management
-
-* UI control
+- Event-driven programming
+- Timers and delays
+- Randomized gameplay
+- State management
+- UI control
 
 ---
 
@@ -179,15 +151,11 @@ A command-line task manager with persistent storage using JSON.
 
 **Concepts Practiced**
 
-* CRUD operations
-
-* File handling
-
-* JSON serialization
-
-* Data persistence
-
-* User interaction
+- CRUD operations
+- File handling
+- JSON serialization
+- Data persistence
+- User interaction
 
 ---
 
@@ -197,15 +165,11 @@ A text encryption and decryption tool based on the classical Caesar Cipher algor
 
 **Concepts Practiced**
 
-* ASCII manipulation (`ord()` and `chr()`)
-
-* Modular arithmetic
-
-* String processing
-
-* Loops
-
-* Conditional logic
+- ASCII manipulation (`ord()` and `chr()`)
+- Modular arithmetic
+- String processing
+- Loops
+- Conditional logic
 
 ---
 
@@ -215,23 +179,15 @@ A command-line program that displays a user-entered message within a predefined 
 
 **Concepts Practiced**
 
-* Strings
-
-* String indexing
-
-* `splitlines()`
-
-* `enumerate()`
-
-* Loops
-
-* Conditional statements
-
-* String concatenation
-
-* Modulo operator
-
-* User input
+- Strings
+- String indexing
+- `splitlines()`
+- `enumerate()`
+- Loops
+- Conditional statements
+- String concatenation
+- Modulo operator
+- User input
 
 ---
 
@@ -241,27 +197,17 @@ A command-line implementation of the classic **Blackjack** card game. The player
 
 **Concepts Practiced**
 
-* Functions
-
-* Loops
-
-* Lists and tuples
-
-* Randomization with `random`
-
-* User input
-
-* Game logic
-
-* Conditional statements
-
-* String manipulation
-
-* Unicode characters
-
-* Modular program design
-
-* Basic state and money management
+- Functions
+- Loops
+- Lists and tuples
+- Randomization with `random`
+- User input
+- Game logic
+- Conditional statements
+- String manipulation
+- Unicode characters
+- Modular program design
+- Basic state and money management
 
 ---
 
@@ -271,23 +217,15 @@ A terminal-based animation that recreates the classic **DVD logo bouncing around
 
 **Concepts Practiced**
 
-* Dictionaries
-
-* Lists and tuples
-
-* State management
-
-* Random number generation
-
-* Terminal cursor positioning
-
-* Terminal colors
-
-* Simulation and animation
-
-* External Python packages
-
-* `KeyboardInterrupt` handling
+- Dictionaries
+- Lists and tuples
+- State management
+- Random number generation
+- Terminal cursor positioning
+- Terminal colors
+- Simulation and animation
+- External Python packages
+- `KeyboardInterrupt` handling
 
 ---
 
@@ -297,55 +235,51 @@ A command-line calendar generator that creates a formatted calendar for a user-s
 
 **Concepts Practiced**
 
-* `datetime.date`
+- `datetime.date`
+- `timedelta`
+- Dictionaries
+- Tuples
+- String formatting
+- Date calculations
+- Loops
+- Input validation
+- Exception handling
+- Structured terminal output
 
-* `timedelta`
+---
 
-* Dictionaries
+## 🥕 Carrot in a Box
 
-* Tuples
+A two-player command-line bluffing game where players try to figure out who has the hidden carrot. Built around secret information, swapping decisions, and a little bit of deception.
 
-* String formatting
+**Concepts Practiced**
 
-* Date calculations
-
-* Loops
-
-* Input validation
-
-* Exception handling
-
-* Structured terminal output
+- Randomization
+- Conditional statements
+- User input
+- Functions
+- Game logic
+- Decision-making and control flow
 
 ---
 
 # 🛠️ Tech Stack
 
-* Python 3
-
-* CustomTkinter (GUI projects)
-
-* `bext` (Terminal animation)
-
-* JSON (Data persistence)
+- Python 3
+- CustomTkinter (GUI projects)
+- `bext` (Terminal animation)
+- JSON (Data persistence)
 
 ### Standard Library Modules
 
-* `random`
-
-* `datetime`
-
-* `timedelta`
-
-* `json`
-
-* `os`
-
-* `pathlib`
-
-* `sys`
-
-* `time`
+- `random`
+- `datetime`
+- `timedelta`
+- `json`
+- `os`
+- `pathlib`
+- `sys`
+- `time`
 
 ---
 
@@ -354,7 +288,7 @@ A command-line calendar generator that creates a formatted calendar for a user-s
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/python-simple-projects.git
+git clone https://github.com/sathyakatrapalli2007/python-simple-projects.git
 
 cd python-simple-projects
 ```
@@ -441,27 +375,26 @@ python dvd_bouncing_logo/main.py
 python custom_calendar/main.py
 ```
 
+### Carrot in a Box
+
+```bash
+python carrot_in_a_box/main.py
+```
+
 ---
 
 # 🎯 Learning Goals
 
 This repository is designed to strengthen:
 
-* Python fundamentals
-
-* Algorithmic thinking
-
-* Problem-solving skills
-
-* Program flow and state management
-
-* File handling and persistence
-
-* Code organization
-
-* Writing reusable functions
-
-* Building complete small-scale applications
+- Python fundamentals
+- Algorithmic thinking
+- Problem-solving skills
+- Program flow and state management
+- File handling and persistence
+- Code organization
+- Writing reusable functions
+- Building complete small-scale applications
 
 ---
 
@@ -469,33 +402,20 @@ This repository is designed to strengthen:
 
 Across these projects, you'll encounter:
 
-* Functions
-
-* Loops
-
-* Conditional statements
-
-* Lists, dictionaries, tuples, and strings
-
-* Random number generation
-
-* Date and time manipulation
-
-* JSON handling
-
-* File I/O
-
-* Event-driven programming
-
-* GUI development with CustomTkinter
-
-* Terminal manipulation
-
-* Simulation and animation
-
-* Modular code organization
-
-* Simulation-based programming
+- Functions
+- Loops
+- Conditional statements
+- Lists, dictionaries, tuples, and strings
+- Random number generation
+- Date and time manipulation
+- JSON handling
+- File I/O
+- Event-driven programming
+- GUI development with CustomTkinter
+- Terminal manipulation
+- Simulation and animation
+- Modular code organization
+- Simulation-based programming
 
 ---
 
@@ -505,23 +425,15 @@ This repository represents the transition from writing simple scripts to develop
 
 Each project focuses on a different aspect of software development:
 
-* 🎮 Interactive game logic
-
-* 🖥️ GUI application development
-
-* 📂 Data persistence
-
-* 🔐 Classical algorithms
-
-* 🎲 Probability simulations
-
-* 🖼️ Terminal graphics and animation
-
-* 📅 Date and time manipulation
-
-* 🧩 Problem decomposition
-
-* 🏗️ Code organization and modularity
+- 🎮 Interactive game logic
+- 🖥️ GUI application development
+- 📂 Data persistence
+- 🔐 Classical algorithms
+- 🎲 Probability simulations
+- 🖼️ Terminal graphics and animation
+- 📅 Date and time manipulation
+- 🧩 Problem decomposition
+- 🏗️ Code organization and modularity
 
 As new projects are completed, this repository will continue to grow into a comprehensive collection of Python applications that document my learning journey.
 
@@ -531,7 +443,7 @@ As new projects are completed, this repository will continue to grow into a comp
 
 Many of these projects are inspired by excellent programming books and resources, including:
 
-* *The Big Book of Small Python Projects* by Al Sweigart
+- *The Big Book of Small Python Projects* by Al Sweigart
 
 They are implemented independently as part of my learning process.
 
